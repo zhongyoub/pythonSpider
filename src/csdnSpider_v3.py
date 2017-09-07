@@ -11,8 +11,8 @@ import http.cookiejar as cookiejar
 import re 
 
 def login():
-    username ="1143747780@qq.com"
-    password ="youbingzhong"
+    username ="xxxx"
+    password ="xxxxx"
     filename="config.ini"
     header={
         "User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
