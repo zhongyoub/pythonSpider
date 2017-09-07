@@ -35,7 +35,7 @@ if not os.path.exists('cookiejar'):
     jsessionid = dict(cookies)["jsessionid"]
     '''
     soup = toJson(r.text)
-    payload ={'username':'1143747780@qq.com','password':'youbingzhong','lt':soup["lt"],'execution':'e1s1','_eventId':'submit'}
+    payload ={'username':'xxx','password':'xxxxx','lt':soup["lt"],'execution':'e1s1','_eventId':'submit'}
     r = s.post("http://passport.csdn.net/account/login",data=payload,headers=header)
     s.cookies.save(ignore_discard=True)
     print(r.text)
