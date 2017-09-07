@@ -47,4 +47,4 @@ def get(url):
 #     获取包含参数的html
     data=response.read().decode(errors='ignore')
     return data
-crawl_CSDN("1143747780@qq.com","youbingzhong")
+crawl_CSDN("xxxx","xxx")
